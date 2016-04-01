@@ -10,7 +10,7 @@ namespace DataInfrastructure
 {
     public class DataAccessComponent<TEntity> : IDataAC<TEntity>, IDisposable where TEntity : class
     {
-        protected DbContext _context;
+        protected DbContext _context; 
 
         #region [Constructor]
         /// <summary>
